@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+    <application name="visionary_ap_frameratereduction">
+        <crown name="FramerateReduction">
+            <desc>user script</desc>
+            <serves/>
+        </crown>
+        <meta key="author">AppSpace Sample</meta>
+        <meta key="version">1.0</meta>
+        <meta key="licensed">false</meta>
+        <meta key="priority">low</meta>
+        <meta key="read-protected">false</meta>
+        <meta key="copy-protected">false</meta>
+        <entry path="pages" default="viewer.msdd">
+            <file type="application/zip">viewer.msdd</file>
+        </entry>
+        <entry path="scripts" default="FramerateReduction.lua">
+            <file type="text/x-lua">FramerateReduction.lua</file>
+        </entry>
+    </application>
+</manifest>
